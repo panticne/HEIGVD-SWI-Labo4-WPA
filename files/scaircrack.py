@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+""" Scaircrack  """
+
+__author__      = "Nemanja Pantic et David Simeonovic"
+
 from scapy.all import *
 from binascii import a2b_hex, b2a_hex
 from pbkdf2 import *
